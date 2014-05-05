@@ -1,4 +1,4 @@
-require 'rubyzip'
+require 'zip'
 require 'fileutils'
 
 current_dir = "#{File.expand_path(File.dirname(__FILE__))}/"
