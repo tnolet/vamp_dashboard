@@ -1,0 +1,6 @@
+{
+    "author":"tim@magnetic.io",
+    "main":"vamp_dashboard.rb",
+    "auto-redeploy": true,
+    "preserve-cwd": true
+}
