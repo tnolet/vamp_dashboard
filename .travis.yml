@@ -1,9 +1,9 @@
 language: ruby
 deploy:
   provider: s3
-  access_key_id: AKIAJONSK6SH5DZ5R7LA
+  access_key_id: AKIAJPYBICCEUDOZDRTQ
   secret_access_key:
-    secure: gWbvdJqCLGqU3OxN8EAE2ahasWSWwZ755EbnMtjh3sFjvjYwTc+5v9ih4gOc8eCzVAwCFUBbV5BbLwB98Z4rmXv+FJwddbQ1WccLMAflJYLzZabeBlovdafNwYVkZd2Cig/ZsA22XcnvyPS0ajcBL8lweiu4c4ARk4AUQNSR1v0=
+    secure: BeqQLscDl2slmxuaMGOV+xvdUx2wgdqlMBI2nne9d8DeDmxPMzmIduRcKhkHv8wTDsRLuKFzqw6IjSjVk54VSAKdNfI2lgodW3PidWJILJ++FcpHx7LuJpJur/Jq+dMPJGcINa75lD+q++V0ErBRBjfSWLvUvluqRJxzvhT/QMo=
   bucket: deploy.magnetic.io
   upload-dir: modules
   local-dir: pkg
