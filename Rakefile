@@ -16,7 +16,7 @@ task :create_zip =>[:cleanup] do
   files = Dir.glob("*.{rb,json}")
 
   Zip::File.open(zipfile_name, Zip::File::CREATE) do |zipfile|
-    Dir[File.join(current_dir, 'lib/**')].each do |file|
+    Dir[File.join(current_dir, 'includes/**')].each do |file|
       zipfile.add(file.sub(current_dir, ''), file)
     end
     files.each do |filename|
